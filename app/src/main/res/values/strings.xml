@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PM012024P1</string>
+    <string name="nombres">Ingrese nombre</string>
+    <string name="apellidos">Ingrese apellidos</string>
+    <string name="edad">Ingrese edad</string>
+    <string name="correo">Ingrese correo</string>
+    <string name="Btn_procesar">Procesar</string>
+    <string name="PantallaIngreso">Agregar persona</string>
+    <string name="PantallaLista">Lista Personas</string>
+    <string name="direccion">Ingrese direccion</string>
+    <string name="btnupdate">Actualizar Persona</string>
+    <string name="btndelete">Eliminar Persona</string>
+    <string name="btncreate">Agregar Persona</string>
+    <string name="txtmenu">Menu</string>
+    <string name="btnprocesarup">Procesar\n</string>
+    <string name="btnprocesarup2">Actualizar</string>
+    <string name="txtnombre">Ingrese nombre</string>
+    <string name="txtapellidos">Ingrese apellidos</string>
+    <string name="txtedad">Ingrese edad</string>
+    <string name="txtcorreo">Ingrese correo</string>
+    <string name="txtdireccion">Ingrese direccion</string>
+    <string name="btneliminar">Eliminar</string>
+    <string name="txtnombre2">Ingrese nombre</string>
+    <string name="txtapellidos2">Ingrese apellidos</string>
+    <string name="txtedad2">Ingrese edad</string>
+    <string name="txtcorreo2">Ingrese correo</string>
+    <string name="txtdireccion2">Ingrese direccion</string>
+    <string name="txtdireccion3">Ingrese direccion</string>
+</resources>
