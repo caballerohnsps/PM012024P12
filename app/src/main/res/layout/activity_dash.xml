@@ -10,51 +10,25 @@
 
     <Button
         android:id="@+id/btnadd"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:text="@string/btncreate"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtmenu"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btndelete"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/btndelete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnupdate"
-        app:layout_constraintVertical_bias="0.043" />
-
-    <Button
-        android:id="@+id/btnupdate"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/btnupdate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnadd"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toTopOf="@+id/txtmenu" />
 
     <Button
         android:id="@+id/btnlist"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="404dp"
+        android:layout_height="52dp"
         android:text="@string/PantallaLista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btndelete"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintTop_toBottomOf="@+id/btnadd"
+        app:layout_constraintVertical_bias="0.054" />
 
     <TextView
         android:id="@+id/txtmenu"
@@ -70,5 +44,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

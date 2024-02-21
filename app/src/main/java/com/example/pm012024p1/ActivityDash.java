@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class ActivityDash extends AppCompatActivity {
 
-    Button btnadd, btnlist, btnupdate, btndelete;
+    Button btnadd, btnlist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,7 @@ public class ActivityDash extends AppCompatActivity {
 
         btnadd = (Button) findViewById(R.id.btnadd);
         btnlist = (Button) findViewById(R.id.btnlist);
-        btnupdate = (Button) findViewById(R.id.btnupdate);
-        btndelete = (Button) findViewById(R.id.btndelete);
+
 
         //Evento para agregar personas
         btnadd.setOnClickListener(new View.OnClickListener() {
@@ -31,25 +30,8 @@ public class ActivityDash extends AppCompatActivity {
             }
         });
 
-        //Evento para actualizar personas
-        btnupdate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), Activity_Update.class);
-                startActivity(intent);
-            }
-        });
 
-        //Evento para eliminar personas
-        btndelete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(getApplicationContext(), Activity_Delete.class);
-                startActivity(intent);
-            }
-        });
 
         //Evento para mostrar toda la lista de usuarios
         btnlist.setOnClickListener(new View.OnClickListener() {
